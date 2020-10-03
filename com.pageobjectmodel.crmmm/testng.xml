@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+<listeners>
+    <listener class-name="com.crm.qa.util.ITestListenerr" />
+  </listeners>
+
+  <test name="Test">
+  <!-- <groups>
+  <run>
+  <include name="smoke"/>
+  </run>
+  </groups>		 -->
+    <classes>
+    
+      <class name="com.crm.qa.Test.LoginpageTest"/>
+        <class name="com.crm.qa.Test.HomepageTest"/>
+       <class name="com.crm.qa.Test.ContactPageTest"/>			
+      <class name="com.crm.qa.Test.AddNewContactTest"/>		
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

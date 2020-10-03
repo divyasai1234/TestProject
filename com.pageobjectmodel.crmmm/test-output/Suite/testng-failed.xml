@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.crm.qa.util.ITestListenerr"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.crm.qa.Test.LoginpageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="loginpagevalidateTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.crm.qa.Test.LoginpageTest -->
+      <class name="com.crm.qa.Test.ContactPageTest">
+        <methods>
+          <include name="selchkboxTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.Test.ContactPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
